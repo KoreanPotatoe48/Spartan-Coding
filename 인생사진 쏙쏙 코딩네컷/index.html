@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="photos">
+      <div id="image1" class="photos-frame"
+        onmouseover="hideText(1)"
+        onmouseout="showText(1)"
+        onclick="alertText(1)"
+      >
+        <span id="desc1" class="photo-description">
+          원시 저그의 생태계
+        </span>
+      </div>
+      <div id="image2" class="photos-frame"
+        onmouseover="hideText(2)"
+        onmouseout="showText(2)"
+        onclick="alertText(2)"
+      >
+        <span id="desc2" class="photo-description">
+          젤나가 사원의 중심지 
+        </span>
+      </div>
+      <div id="image3" class="photos-frame"
+        onmouseover="hideText(3)"
+        onmouseout="showText(3)"
+        onclick="alertText(3)"
+      >
+        <span id="desc3" class="photo-description">
+          레이더 특공대의 <br>히페리온 
+        </span>
+      </div>
+      <div class="photos-frame">
+        <iframe
+          src="https://www.youtube.com/embed/TWz1btekxfs"
+          frameborder="0"
+          class="video"
+        ></iframe>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="f-title">happy lunch time</p>
+      <p class="f-dats">2월 4일</p>
+    </div>
+  </div>
+</body>
+</html>
