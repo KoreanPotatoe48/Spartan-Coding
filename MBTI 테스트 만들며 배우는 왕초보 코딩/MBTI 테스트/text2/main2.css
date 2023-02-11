@@ -1,0 +1,20 @@
+h1 {
+  color: blue;
+}
+.w {
+  font-size: 100px;
+}
+li {
+  color: hotpink;
+}
+.orange {
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+}
+div .orange {
+  color: brown;
+}
+a:after {
+  color: red;
+}

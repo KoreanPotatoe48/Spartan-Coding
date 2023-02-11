@@ -1,0 +1,10 @@
+h1 {
+  /* 글자색상을 빨간색으로 만들어보아요 */
+  color: red;
+  font-size: 50px;
+  font-weight: 900;
+  border: 4px solid;
+}
+span {
+  color: red;
+}
